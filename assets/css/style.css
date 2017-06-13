@@ -50,7 +50,7 @@ body {
 	margin-bottom: 30px;
 }
 
-h1, h2, .panel-default .panel-heading {
+h1, h2, h3 {
 	font-weight: bold;
 	font-size: 28px;
 	font-family: Georgia, Times, 'Times New Roman', serif;
@@ -61,12 +61,19 @@ h1 {
 	margin: 30px 0px;
 }
 
+h3 {
+	font-size: 20px;
+	margin: 0;
+}
+
 .panel-default .panel-heading {
 	font-size: 22px;
 }
 
 .panel-default .panel-body {
 	float: none;
+	padding: 30px;
+
 }
 
 img {
@@ -214,6 +221,7 @@ p {
 .icons {
 	padding: 10px 0px;
 	width: 30%;
+	max-width: 100px;
 	float: left;
 }
 
